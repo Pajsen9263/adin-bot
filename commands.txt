@@ -1,0 +1,44 @@
+?? commands
+
+ping:
+
+Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms
+
+
+say:
+
+const sayMessage = args.join(" ");
+message.delete().catch(O_o => {});
+message.channel.send(sayMessage);
+
+
+
+Help Commands
+
+Help:
+:helps you
+
+
+Adin spez Commands :)
+
+Random Commands:
+
+Hello Adin:
+Hello
+
+
+Corona:
+Ono i dont like corona :face_vomiting:
+  
+  
+Ha:
+:joy: :joy: :joy: :joy: :joy: :joy: :joy: :joy: :joy:
+
+
+?:
+what?????
+
+
+!?:
+WHAT!!!!????
+
