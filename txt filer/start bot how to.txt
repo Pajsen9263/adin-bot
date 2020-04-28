@@ -1,4 +1,0 @@
-tools: terminal
-vänta på att den ska starta terminalen
-när terminalen har strtat skriv "node index.js"
-Botten kommer att starta efter detta 

@@ -1,27 +1,31 @@
 {
-  "name": "MarkusIsBest",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
-  "description": "Adin. A FUXING DISCORD BOTY DUMBASS",
-  "main": "index.js",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "discord.js": "^12.2.0",
-    "file-system": "^2.2.2",
-    "fs": "^0.0.2",
-    "file-loader": "^6.0.0"
+    "winston": "^3.2.1"
   },
   "engines": {
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/Adin"
+    "url": "https://glitch.com/edit/#!/hello-express"
   },
-  "license": "MIT",
+  
+  "license": "GNU GPLv3",
   "keywords": [
     "node",
     "glitch",
     "express"
   ]
+  
 }

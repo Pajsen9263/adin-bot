@@ -1,8 +1,0 @@
-  if (command === "commands") {
-    message.reply("I don´t whant to help you. :)");
-    message.delete().catch(O_o => {});
-  }
-});
-
-    message.delete().catch(O_o => {}); //för att radera användarens command
-    
