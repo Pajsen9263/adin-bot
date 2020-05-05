@@ -1,0 +1,11 @@
+function edit_f() {
+   running: run.edit("I'm running")
+    setInterval(edit_f, 10000);
+}
+  
+if (command === "run") {
+   const run = await message.channel.send("Run?");
+  setInterval(function() {
+  run.edit("I'm running now")
+}, 10*1000)
+}

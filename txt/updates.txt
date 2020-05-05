@@ -1,0 +1,2 @@
+update 1 pajsen: License change 
+update 2 pajsen: Added a new command that's send a copy of the license
